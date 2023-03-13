@@ -270,3 +270,12 @@ history -a
 help while
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+man while
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help while
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help for
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
