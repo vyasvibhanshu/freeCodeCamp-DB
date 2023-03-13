@@ -105,3 +105,9 @@ history -a
 help
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+man
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man if
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
