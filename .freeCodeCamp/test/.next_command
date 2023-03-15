@@ -495,3 +495,42 @@ history -a
 ./fortune.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo RANDOM
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $RANDOM
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+N=RANDOM%5
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $N
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+N=${RANDOM%5}
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $N
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+N=${RANDOM}%5
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $N
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+N=$RANDOM%5
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $N
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+N=${RANDOM % 5}
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo ${500%5}
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo ${500 % 5}
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
