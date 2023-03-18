@@ -771,3 +771,14 @@ git checkout shell-programs
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git add --all
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "Shell Programs"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push origin master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push origin shell-programs
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
