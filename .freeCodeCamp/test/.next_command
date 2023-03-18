@@ -714,3 +714,11 @@ type exit
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 exit
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remove -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
