@@ -722,3 +722,35 @@ history -a
 git remote -v
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push --all
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push origin master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push --set-upstream master master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git log
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/vyasvibhanshu/freeCodeCamp-DB.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add -all
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add --all
